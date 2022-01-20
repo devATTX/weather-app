@@ -1,10 +1,15 @@
 import './App.css';
+import CurrentTemp from './components/CurrentTemp'
+
+const temperature = 10
+const temperatureUnit = 'F'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>Weather App</h1>
+        <CurrentTemp temperature={temperature} temperatureUnit={temperatureUnit} />
         <p>What a sunny day!</p>
       </header>
     </div>
