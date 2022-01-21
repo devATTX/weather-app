@@ -10,7 +10,6 @@ function App() {
   const temperatureUnit = 'F'
   const lat = '45.307781'
   const lon = '-93.577408'
-  const appId = ''
 
   // Get Current Weather
   const getCurrentWeather = async (lat, lon, appId) => {
@@ -20,7 +19,7 @@ function App() {
   useEffect(() => {
     const getCurrentWeather = async () => {
       try {
-        const response = await fetch(`${URL}?lat=${lat}&lon=${lon}&appid=${appId}&units=imperial`)
+        const response = await fetch(`${URL}?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_OW_API_KEY}&units=imperial`)
         const currentWeather = await response.json();
         console.log(currentWeather)
         setCurrentWeather(currentWeather)
