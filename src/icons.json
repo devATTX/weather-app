@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "owIconId": "000",
+    "time": "day",
+    "name": "windy_cloud",
+    "image": "images/icons/1530361_windy_cloudy_storm_wind_weather.png"
+  },
+  {
+    "id": 502,
+    "owIconId": "10d",
+    "time": "both",
+    "name": "heavy_rain",
+    "image": "images/icons/1530362_cloudy_weather_forecast_rain_clouds.png"
+  },
+  {
+    "id": 200,
+    "owIconId": "11d",
+    "time": "both",
+    "name": "thunderstorm",
+    "image": "images/icons/1530363_storm_weather_night_clouds.png"
+  },
+  {
+    "id": 501,
+    "owIconId": "10d",
+    "time": "day",
+    "name": "medium_rain",
+    "image": "images/icons/1530364_rain_storm_shower_weather.png"
+  },
+  {
+    "id": 500,
+    "owIconId": "10d",
+    "time": "day",
+    "name": "light_rain",
+    "image": "images/icons/1530365_rain_cloud_drizzel_weather.png"
+  },
+  {
+    "id": 781,
+    "owIconId": "50d",
+    "time": "day",
+    "name": "tornado",
+    "image": "images/icons/1530366_hurricane_weather_tornado_storm.png"
+  },
+  {
+    "id": 751,
+    "owIconId": "50d",
+    "time": "day",
+    "name": "sandstorm",
+    "image": "images/icons/1530367_storm_weather_sandstorm_sand_cloud.png"
+  },
+  {
+    "id": 741,
+    "owIconId": "50d",
+    "time": "day",
+    "name": "foggy",
+    "image": "images/icons/1530368_foggy_weather_fog_clouds_cloudy.png"
+  },
+  {
+    "id": 803,
+    "owIconId": "04d",
+    "time": "both",
+    "name": "cloud",
+    "image": "images/icons/1530369_cloudy_weather_clouds_cloud.png"
+  },
+  {
+    "id": 10,
+    "owIconId": "000",
+    "time": "day",
+    "name": "hail",
+    "image": "images/icons/1530370_hail_weather_hailstone_clouds_snow.png"
+  },
+  {
+    "id": 600,
+    "owIconId": "13d",
+    "time": "day",
+    "name": "snow",
+    "image": "images/icons/1530371_winter_snow_clouds_weather.png"
+  },
+  {
+    "id": 12,
+    "owIconId": "000",
+    "time": "night",
+    "name": "sandstorm_night",
+    "image": "images/icons/1530372_sand_weather_storm_sandstorm.png"
+  },
+  {
+    "id": 13,
+    "owIconId": "000",
+    "time": "day",
+    "name": "hot_temperature",
+    "image": "images/icons/1530373_weather_forecast_temperature_thermometer.png"
+  },
+  {
+    "id": 14,
+    "owIconId": "000",
+    "time": "day",
+    "name": "sandstorm_day",
+    "image": "images/icons/1530374_sand_weather_sandstorm_sun_day.png"
+  },
+  {
+    "id": 15,
+    "owIconId": "000",
+    "time": "night",
+    "name": "moonset",
+    "image": "images/icons/1530375_weather_moonset_moon_morning.png"
+  },
+  {
+    "id": 16,
+    "owIconId": "000",
+    "time": "night",
+    "name": "windy_cloud_night",
+    "image": "images/icons/1530376_wind_weather_cloudy_storm.png"
+  },
+  {
+    "id": 17,
+    "owIconId": "000",
+    "time": "night",
+    "name": "foggy_night",
+    "image": "images/icons/1530377_moon_night_weather_foggy_fog.png"
+  },
+  {
+    "id": 18,
+    "owIconId": "000",
+    "time": "night",
+    "name": "moonrise",
+    "image": "images/icons/1530378_weather_moon_moonrise_night.png"
+  },
+  {
+    "id": 19,
+    "owIconId": "000",
+    "time": "night",
+    "name": "medium_rain_night",
+    "image": "images/icons/1530379_night_weather_clouds_storm_rain_moon.png"
+  },
+  {
+    "id": 20,
+    "owIconId": "000",
+    "time": "night",
+    "name": "snow_night",
+    "image": "images/icons/1530380_moon_weather_snow_night.png"
+  },
+  {
+    "id": 21,
+    "owIconId": "000",
+    "time": "night",
+    "name": "thunderstorm_night",
+    "image": "images/icons/1530381_weather_rain_storm_night.png"
+  },
+  {
+    "id": 22,
+    "owIconId": "000",
+    "time": "night",
+    "name": "clear_night",
+    "image": "images/icons/1530382_weather_night_moon_moonlight.png"
+  },
+  {
+    "id": 23,
+    "owIconId": "000",
+    "time": "night",
+    "name": "partial_cloud_night",
+    "image": "images/icons/1530383_moon_weather_clouds_cloudy.png"
+  },
+  {
+    "id": 24,
+    "owIconId": "000",
+    "time": "day",
+    "name": "sunset",
+    "image": "images/icons/1530384_weather_sunset_sun_evening.png"
+  },
+  {
+    "id": 25,
+    "owIconId": "000",
+    "time": "day",
+    "name": "thunderstorm_day",
+    "image": "images/icons/1530385_storm_weather_thunder_clouds_rain.png"
+  },
+  {
+    "id": 26,
+    "owIconId": "000",
+    "time": "day",
+    "name": "foggy_day",
+    "image": "images/icons/1530386_weather_clouds_fog_foggy.png"
+  },
+  {
+    "id": 27,
+    "owIconId": "000",
+    "time": "day",
+    "name": "sunrise",
+    "image": "images/icons/1530387_morning_sunrise_sun_weather.png"
+  },
+  {
+    "id": 28,
+    "owIconId": "000",
+    "time": "day",
+    "name": "snow_day",
+    "image": "images/icons/1530388_winter_snowflake_christmas_xmas_weather_snow.png"
+  },
+  {
+    "id": 29,
+    "owIconId": "000",
+    "time": "day",
+    "name": "windy_cloud_day",
+    "image": "images/icons/1530389_sunny_weather_clouds_storm.png"
+  },
+  {
+    "id": 30,
+    "owIconId": "000",
+    "time": "day",
+    "name": "medium_rain_day",
+    "image": "images/icons/1530390_sunny_rain_cloudy_weather_clouds.png"
+  },
+  {
+    "id": 801,
+    "owIconId": "02d",
+    "time": "day",
+    "name": "partial_cloud_day",
+    "image": "images/icons/1530391_clouds_sun_sunny_weather.png"
+  },
+  {
+    "id": 800,
+    "owIconId": "01d",
+    "time": "day",
+    "name": "clear_day",
+    "image": "images/icons/1530392_weather_sun_sunny_temperature.png"
+  }
+]

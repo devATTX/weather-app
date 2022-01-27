@@ -1,46 +1,25 @@
 import './App.css';
-import { useEffect, useState } from 'react';
-import CurrentTemp from './components/CurrentTemp'
-
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Home from './components/Home'
+import Resources from './components/Resources'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
-  const URL = 'http://api.openweathermap.org/data/2.5/weather';
-  const [currentWeather, setCurrentWeather] = useState('');
-  const [currentTemp, setCurrentTemp] = useState('10')
-  const temperatureUnit = 'F'
-  const lat = '45.307781'
-  const lon = '-93.577408'
-
-  // Get Current Weather
-  const getCurrentWeather = async (lat, lon, appId) => {
-
-  }
-
-  useEffect(() => {
-    const getCurrentWeather = async () => {
-      try {
-        const response = await fetch(`${URL}?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_OW_API_KEY}&units=imperial`)
-        const currentWeather = await response.json();
-        console.log(currentWeather)
-        setCurrentWeather(currentWeather)
-        setCurrentTemp(Math.round(currentWeather.main.temp))
-      } catch (err) {
-        console.error(err.stack)
-      }
-    }
-
-    (async () => await getCurrentWeather())();
-  }, [])
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Weather App</h1>
-        <CurrentTemp temperature={currentTemp} temperatureUnit={temperatureUnit} />
-        <p>What a sunny day!</p>
-      </header>
-    </div>
-  );
+    <Router>
+      <div className="App">
+        <Header />
+        <div className="Body-Container">
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route exact path='/resources' element={<Resources />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
+    </Router>
+  )
 }
 
 export default App;
