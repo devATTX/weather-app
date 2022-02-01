@@ -25,7 +25,7 @@ const Home = () => {
         console.log(currentWeather)
         setCurrentWeather(currentWeather)
         setError(null)
-        tabTitle(currentTemp(currentWeather) + '°' + temperatureUnit + ' - Weather App')
+        tabTitle(roundTemp(currentWeather.main.temp) + '°' + temperatureUnit + ' - Weathery Day')
       } else {
         setCurrentWeather(null)
         setError(Error(response.status + ' - ' + response.statusText))
@@ -45,15 +45,21 @@ const Home = () => {
     return currentWeather.weather[0].id;
   }
 
-  const currentTemp = (currentWeather) => {
-    console.log(currentWeather.main.temp);
-    return Math.round(currentWeather.main.temp)
+  const roundTemp = (temp) => {
+    return Math.round(temp)
   }
 
   return (
     <>
       {error && <div>Error: {error.message}</div>}
-      {currentWeather && <CurrentTemp temperature={currentTemp(currentWeather)} temperatureUnit={temperatureUnit} currentWeatherId={currentWeatherId(currentWeather)} />}
+      {currentWeather && <CurrentTemp
+        temperature={roundTemp(currentWeather.main.temp)}
+        temperatureUnit={temperatureUnit}
+        currentWeatherId={currentWeatherId(currentWeather)}
+        feelsLikeTemp={roundTemp(currentWeather.main.feels_like)}
+        highTemp={roundTemp(currentWeather.main.temp_max)}
+        lowTemp={roundTemp(currentWeather.main.temp_min)}
+      />}
     </>
   )
 };

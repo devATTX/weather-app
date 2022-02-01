@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": -93.5774,
+    "lat": 45.3078
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 15.39,
+    "feels_like": 10.53,
+    "temp_min": 12.2,
+    "temp_max": 19.45,
+    "pressure": 1016,
+    "humidity": 71
+  },
+  "visibility": 8203,
+  "wind": {
+    "speed": 3,
+    "deg": 223,
+    "gust": 10
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1643746125,
+  "sys": {
+    "type": 2,
+    "id": 2005954,
+    "country": "US",
+    "sunrise": 1643722492,
+    "sunset": 1643757651
+  },
+  "timezone": -21600,
+  "id": 5025471,
+  "name": "Elk River",
+  "cod": 200
+}
