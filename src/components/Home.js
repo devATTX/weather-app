@@ -11,6 +11,10 @@ const Home = () => {
   const lon = '-93.577408'
   const units = 'imperial'
 
+  const tabTitle = (newTitle) => {
+    return (document.title = newTitle)
+  }
+
   // Get Current Weather
   const getCurrentWeather = async (lat, lon, units) => {
     try {
@@ -21,6 +25,7 @@ const Home = () => {
         console.log(currentWeather)
         setCurrentWeather(currentWeather)
         setError(null)
+        tabTitle(currentTemp(currentWeather) + '°' + temperatureUnit + ' - Weather App')
       } else {
         setCurrentWeather(null)
         setError(Error(response.status + ' - ' + response.statusText))
