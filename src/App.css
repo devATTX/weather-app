@@ -48,6 +48,23 @@ footer {
   box-sizing: border-box;
 }
 
+.op-icon-div {
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+}
+
+.op-icon {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: -100%;
+  margin: auto;
+  height: 80px;
+  box-sizing: border-box;
+}
+
 .Home-temperature {
   font-size: 4em;
   font-weight: 600;

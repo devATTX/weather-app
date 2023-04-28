@@ -19,7 +19,7 @@ const Home = () => {
   const getCurrentWeather = async (lat, lon, units) => {
     try {
       const response = await fetch(`${URL}?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_OW_API_KEY}&units=${units}`)
-      console.log(response);
+      console.log('Response Status: ' + response.status);
       if (response.status === 200) {
         const currentWeather = await response.json();
         console.log(currentWeather)
